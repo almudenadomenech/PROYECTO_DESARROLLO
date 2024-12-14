@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+/* Estilo del logo en la barra de navegación */
+.navbar-brand {
+    cursor: pointer;
+    position: relative;
+}
+
+/* Estilo de los enlaces en la barra de navegación */
+.navbar-nav a {
+    text-decoration: none;
+    color: #171817;
+    font-weight: normal; 
+    margin-right: 20px; /* Añadido margen para separar los enlaces */
+}
+
+/* Efecto hover para los enlaces */
+.navbar-nav a:hover {
+    color: #f57d00;
+}
+
+
+/* Estilo para el logo en el navbar */
+.navbar-brand img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+    display: block;
+}
+
+/* Barra de navegación personalizada */
+.navbar-custom {
+    background-color: #ffffff; /* Fondo blanco */
+    border-bottom: 3px solid #f57d00; /* Línea de separación en la parte inferior */
+}
+/* Estilo base del botón */
+.custom-btn {
+    background-color: #ffffff !important; /* Color de fondo inicial */
+    color: rgb(0, 0, 0) !important; /* Color del texto */
+    border: none !important; /* Elimina el borde */
+    padding: 10px 20px;
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease !important; /* Transición suave */
+    margin-right:150px; /* Añadido margen a la derecha para separación */
+    outline: none !important; /* Elimina el borde de enfoque cuando se hace clic */
+}
+
+/* Cambio de color al pasar el cursor sobre el botón */
+.custom-btn:hover {
+    background-color: #ffffff !important; /* Nuevo color de fondo al pasar el cursor */
+    color: #f57d00 !important; /* Asegura que el color del texto no cambie */
+}
+
+/* Para evitar el borde cuando se hace clic */
+.custom-btn:focus {
+    outline: none !important; /* Elimina el borde de enfoque */
+}
+
+
+/*  HOME */
+.bg-welcome {
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/22/17/46/mountains-1761292_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top:100px;
+    padding-bottom: 100px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .bg-welcome h1 { 
+    padding-bottom: 20px;
+    color: white;
+    font-family: "Montserrat", sans-serif;}
+  
+  .bg-welcome p {
+    color: white;
+  }
+  body {
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+  }
+  
+  .tittle h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    padding-top: 50px;
+    margin-left: 120px;
+    color: #000000;
+  }
+  
+  .tittle p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    padding-top: 2px;
+    margin-left: 120px; 
+    color: #434343;
+  }
