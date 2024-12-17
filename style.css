@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
+   
 }
 
 /* Estilo del logo en la barra de navegación */
@@ -53,17 +53,20 @@
     transition: background-color 0.3s ease, color 0.3s ease !important; /* Transición suave */
     margin-right:150px; /* Añadido margen a la derecha para separación */
     outline: none !important; /* Elimina el borde de enfoque cuando se hace clic */
+   
 }
 
 /* Cambio de color al pasar el cursor sobre el botón */
 .custom-btn:hover {
     background-color: #ffffff !important; /* Nuevo color de fondo al pasar el cursor */
     color: #f57d00 !important; /* Asegura que el color del texto no cambie */
+   
 }
 
 /* Para evitar el borde cuando se hace clic */
 .custom-btn:focus {
     outline: none !important; /* Elimina el borde de enfoque */
+  
 }
 
 
@@ -104,3 +107,10 @@
     margin-left: 120px; 
     color: #434343;
   }
+ 
+.dropdown-menu .dropdown-item:hover {
+    background-color: transparent; 
+    
+}
+
+
