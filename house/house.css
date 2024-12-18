@@ -14,9 +14,12 @@
    cursor: pointer;
    font-size: 30px;
    color: #666;
+   position: relative;
+   top: 10px;
+   left: -10px;
 }
 .rating:not(:checked) > label::before{
-    content: '*';
+    content: '★';
 }
 .rating > input:checked + label:hover,
 .rating > input:checked + label:hover ~ label,
@@ -33,4 +36,8 @@
 
 .rating > input:checked ~ label{
     color:#ffa723 ;
+}
+.texto-derecha {
+    justify-content: flex-end;
+    width: 100%; /* Asegura que el contenedor ocupe todo el espacio disponible */
 }
